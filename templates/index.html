@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пиши тут</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+
+*,*::before,*::after {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+} 
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 136px;
+    font-size: 16px;
+    max-width: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-bar {
+    position: fixed;
+    height: 56px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: #0c4b33;
+    box-shadow: 0px 4px 30px #005031de;
+    padding: 18px 100px;
+}
+
+.btn {
+    display: block; margin-top: 10px; background-color: #0c4b33; outline: none; border: none; color: #ddf6ea; width: 300px; height: 50px; margin-bottom: 300px; border-radius: 7px; font-size: 19px;transition: ease 0.3s;
+}
+.btn:hover {
+    transition: ease 0.3s;
+    color:#20AA76;
+}
+.btn:active {
+    transition: ease 0.3s;
+    background-color: #007447;
+}
+
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+
+    </div>
+    <div style="margin-left: 50px;">
+        <p style="font-size: 30px; width: 500px">
+            простите, я пропаду на некоторое время, если есть вам что то сообщить мне пишите тут, я обязательно прочитаю  ⬇️
+        </p>
+        <form method="post" action="">
+        <textarea name="message" id="message" cols="40" rows="10" style="margin-top: 30px; border-radius: 7px; outline: none; padding: 20px; border: 3px solid #929292; font-size: 19px;" placeholder="Написать сообщение..."></textarea>
+        <button type="submit" class="btn" id="btn">Отправить</button>
+        </form>
+    </div>
+
+</body>
+</html>
